@@ -1,0 +1,18 @@
+{
+    "size": 2,
+    "limit": 25,
+    "isLastPage": true,
+    "values": [
+        {
+            "id": "refs/heads/branch-a",
+            "displayId": "branch-a",
+            "type": "BRANCH"
+        },
+        {
+            "id": "refs/heads/branch-b",
+            "displayId": "branch-b",
+            "type": "BRANCH"
+        }
+    ],
+    "start": 0
+}

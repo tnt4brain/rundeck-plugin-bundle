@@ -1,0 +1,25 @@
+name: test-ui
+rundeckPluginVersion: 2.0
+author: Sergey Pechenko
+description: My test plugin
+rundeckCompatibilityVersion: 3.x
+targetHostCompatibility: unix
+license: MIT
+tags:
+    - script
+    - UI
+date: 2019-12-29T01:49:31.000T+03
+version: 0.0.1
+providers:
+    - name: test-ui
+      service: UI
+      plugin-type: ui
+      title: TEST UI TITLE
+      description: Rundeck UI test
+      ui:
+        - pages: '*'
+          scripts:
+            - js/test-init.js
+            - js/main.js
+          styles:
+            - css/testui.css

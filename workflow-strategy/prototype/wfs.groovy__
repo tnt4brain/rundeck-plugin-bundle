@@ -1,0 +1,11 @@
+import com.dtolabs.rundeck.plugins.workflow.StrategyPlugin
+
+rundeckPlugin(StrategyPlugin) {
+    title="WorkflowStrategy Plugin"
+    description="WorkflowStrategy Plugin"
+
+    configuration {
+        val1 title: "val1", description: "This is val1"
+        val2 title: "val2", description: "This is val2"
+    }
+}
